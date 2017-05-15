@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="TUTORIALS.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="carryripple4bitaddsub.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="carryripple4bitaddsub.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="carryripple4bitaddsub.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="carryripple4bitaddsub.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="carryripple4bitaddsub.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="carryripple4bitaddsub.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="carryripple4bitaddsub.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="carryripple4bitaddsub.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="carryripple4bitaddsub.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="carryripple4bitaddsub.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="carryripple4bitaddsub.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="carryripple4bitaddsub.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="carryripple4bitaddsub.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="carryripple4bitaddsub.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="carryripple4bitaddsub.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="carryripple4bitaddsub.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="carryripple4bitaddsub.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="carryripple4bitaddsub.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="carryripple4bitaddsub.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="carryripple4bitaddsub.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="carryripple4bitaddsub.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="carryripple4bitaddsub.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="carryripple4bitaddsub.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="carryripple4bitaddsub_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="carryripple4bitaddsub_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="carryripple4bitaddsub_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="carryripple4bitaddsub_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="carryripple4bitaddsub_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="carryripple4bitaddsub_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="carryripple4bitaddsub_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="carryripple4bitaddsub_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="carryripple4bitaddsub_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="carryripple4bitaddsub_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="carryripple4bitaddsub_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="carryripple4bitaddsub_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="carryripple4bitaddsub_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="carryripple4bitaddsub_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="carryripple4bitaddsub_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="carryripple4bitaddsub_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="carryripple4bitaddsubtb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="carryripple4bitaddsubtb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="carryripple4bitaddsubtb_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="carryripple4bitaddsubtb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="op_sel.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="op_sel.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="op_sel.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="singlebitadder.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="singlebitadder.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="singlebitadder.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="singlebitadder.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="singlebitadder.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="singlebitadder.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="singlebitadder.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="singlebitadder.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="singlebitadder.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="singlebitadder.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="singlebitadder.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="singlebitadder.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="singlebitadder.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="singlebitadder.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="singlebitadder.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="singlebitadder.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="singlebitadder.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="singlebitadder.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="singlebitadder.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="singlebitadder_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="singlebitadder_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="singlebitadder_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="singlebitadder_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="singlebitadder_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="singlebitadder_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="singlebitadder_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="singlebitadder_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="singlebitadder_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="singlebitadder_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="singlebitadder_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="singlebitadder_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="singlebitadder_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="singlebitadder_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="singlebitadder_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1447361502" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1447361501">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447361793" xil_pn:in_ck="-8615570654892259027" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1447361793">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.vhd"/>
+      <outfile xil_pn:name="carryripple4bitaddsubtb.vhd"/>
+      <outfile xil_pn:name="singlebitadder.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1447361502" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="3261500704715583967" xil_pn:start_ts="1447361502">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447361502" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4300305460468036001" xil_pn:start_ts="1447361502">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447361502" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="1732074685614108318" xil_pn:start_ts="1447361502">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447361793" xil_pn:in_ck="-8615570654892259027" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1447361793">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.vhd"/>
+      <outfile xil_pn:name="carryripple4bitaddsubtb.vhd"/>
+      <outfile xil_pn:name="singlebitadder.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1447361798" xil_pn:in_ck="-8615570654892259027" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="3073792109305631392" xil_pn:start_ts="1447361793">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="carryripple4bitaddsubtb_beh.prj"/>
+      <outfile xil_pn:name="carryripple4bitaddsubtb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1447361798" xil_pn:in_ck="5521663660128153368" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2934072119953697427" xil_pn:start_ts="1447361798">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="carryripple4bitaddsubtb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1445378530" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1445378530">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445378530" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3086337060678049656" xil_pn:start_ts="1445378530">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445378530" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="1732074685614108318" xil_pn:start_ts="1445378530">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445378530" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1445378530">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445378530" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="4288461189698834806" xil_pn:start_ts="1445378530">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445378530" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1445378530">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445378530" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-456647587567393432" xil_pn:start_ts="1445378530">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445379201" xil_pn:in_ck="-3050534573393712972" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="2473495871204144879" xil_pn:start_ts="1445379194">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.lso"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.ngc"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.ngr"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.prj"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.stx"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.syr"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.xst"/>
+      <outfile xil_pn:name="carryripple4bitaddsub_vhdl.prj"/>
+      <outfile xil_pn:name="carryripple4bitaddsub_xst.xrpt"/>
+      <outfile xil_pn:name="carryripple4bitaddsubtb_beh.prj"/>
+      <outfile xil_pn:name="carryripple4bitaddsubtb_stx_beh.prj"/>
+      <outfile xil_pn:name="singlebitadder.ngr"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1445379162" xil_pn:in_ck="4913312808198" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="37499032974600427" xil_pn:start_ts="1445379162">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445379205" xil_pn:in_ck="-2784411714830218906" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="1610763704755242091" xil_pn:start_ts="1445379201">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.bld"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.ngd"/>
+      <outfile xil_pn:name="carryripple4bitaddsub_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1445379209" xil_pn:in_ck="-9004848055147241304" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1445379205">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.pcf"/>
+      <outfile xil_pn:name="carryripple4bitaddsub_map.map"/>
+      <outfile xil_pn:name="carryripple4bitaddsub_map.mrp"/>
+      <outfile xil_pn:name="carryripple4bitaddsub_map.ncd"/>
+      <outfile xil_pn:name="carryripple4bitaddsub_map.ngm"/>
+      <outfile xil_pn:name="carryripple4bitaddsub_map.xrpt"/>
+      <outfile xil_pn:name="carryripple4bitaddsub_summary.xml"/>
+      <outfile xil_pn:name="carryripple4bitaddsub_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1445379219" xil_pn:in_ck="-3764856452887561830" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1445379209">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.ncd"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.pad"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.par"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.ptwx"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.unroutes"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.xpi"/>
+      <outfile xil_pn:name="carryripple4bitaddsub_pad.csv"/>
+      <outfile xil_pn:name="carryripple4bitaddsub_pad.txt"/>
+      <outfile xil_pn:name="carryripple4bitaddsub_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1445379231" xil_pn:in_ck="3166346026015918618" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="287829442711806529" xil_pn:start_ts="1445379219">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.bgn"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.bit"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.drc"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1445379509" xil_pn:in_ck="-5479923287348781536" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="5582947192412673156" xil_pn:start_ts="1445379505">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1445379219" xil_pn:in_ck="436009623479444128" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1445379216">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.twr"/>
+      <outfile xil_pn:name="carryripple4bitaddsub.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

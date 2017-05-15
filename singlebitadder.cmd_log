@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "/home/ghost/Documents/Xilinx_Workspaces/TUTORIALS/singlebitadder.xst" -ofn "/home/ghost/Documents/Xilinx_Workspaces/TUTORIALS/singlebitadder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 singlebitadder.ngc singlebitadder.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o singlebitadder_map.ncd singlebitadder.ngd singlebitadder.pcf 
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o singlebitadder_map.ncd singlebitadder.ngd singlebitadder.pcf 
+par -w -intstyle ise -ol high -mt off singlebitadder_map.ncd singlebitadder.ncd singlebitadder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml singlebitadder.twx singlebitadder.ncd -o singlebitadder.twr singlebitadder.pcf 
+xst -intstyle ise -ifn "/home/ghost/Documents/Xilinx_Workspaces/TUTORIALS/singlebitadder.xst" -ofn "/home/ghost/Documents/Xilinx_Workspaces/TUTORIALS/singlebitadder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 singlebitadder.ngc singlebitadder.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o singlebitadder_map.ncd singlebitadder.ngd singlebitadder.pcf 
+par -w -intstyle ise -ol high -mt off singlebitadder_map.ncd singlebitadder.ncd singlebitadder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml singlebitadder.twx singlebitadder.ncd -o singlebitadder.twr singlebitadder.pcf 

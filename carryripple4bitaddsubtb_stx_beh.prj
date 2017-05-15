@@ -1,0 +1,3 @@
+vhdl isim_temp "singlebitadder.vhd"
+vhdl isim_temp "carryripple4bitaddsub.vhd"
+vhdl isim_temp "carryripple4bitaddsubtb.vhd"

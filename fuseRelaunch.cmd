@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Ghost/Documents/Xilinx_Workspaces/TUTORIALS/carryripple4bitaddsubtb_isim_beh.exe" -prj "C:/Users/Ghost/Documents/Xilinx_Workspaces/TUTORIALS/carryripple4bitaddsubtb_beh.prj" "work.carryripple4bitaddsubtb" 

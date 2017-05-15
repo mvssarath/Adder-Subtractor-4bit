@@ -1,0 +1,98 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml carryripple4bitaddsub.twx carryripple4bitaddsub.ncd -o
+carryripple4bitaddsub.twr carryripple4bitaddsub.pcf -ucf pins.ucf
+
+Design file:              carryripple4bitaddsub.ncd
+Physical constraint file: carryripple4bitaddsub.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a<0>           |cout           |   10.705|
+a<0>           |sum<0>         |    8.888|
+a<0>           |sum<1>         |    9.034|
+a<0>           |sum<2>         |   10.648|
+a<0>           |sum<3>         |   11.753|
+a<1>           |cout           |    9.910|
+a<1>           |sum<1>         |    8.092|
+a<1>           |sum<2>         |    9.853|
+a<1>           |sum<3>         |   10.958|
+a<2>           |cout           |    8.136|
+a<2>           |sum<2>         |    8.079|
+a<2>           |sum<3>         |    9.184|
+a<3>           |cout           |    7.804|
+a<3>           |sum<3>         |    8.852|
+b<0>           |cout           |   10.509|
+b<0>           |sum<0>         |    8.861|
+b<0>           |sum<1>         |    8.838|
+b<0>           |sum<2>         |   10.452|
+b<0>           |sum<3>         |   11.557|
+b<1>           |cout           |    9.652|
+b<1>           |sum<1>         |    8.101|
+b<1>           |sum<2>         |    9.595|
+b<1>           |sum<3>         |   10.700|
+b<2>           |cout           |    7.739|
+b<2>           |sum<2>         |    7.682|
+b<2>           |sum<3>         |    8.787|
+b<3>           |cout           |    6.883|
+b<3>           |sum<3>         |    7.931|
+cin            |cout           |   12.461|
+cin            |sum<0>         |   10.656|
+cin            |sum<1>         |   10.790|
+cin            |sum<2>         |   12.404|
+cin            |sum<3>         |   13.509|
+op_sel         |cout           |   13.023|
+op_sel         |sum<0>         |   11.385|
+op_sel         |sum<1>         |   11.352|
+op_sel         |sum<2>         |   12.966|
+op_sel         |sum<3>         |   14.071|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Oct 20 17:13:38 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 164 MB
+
+
+

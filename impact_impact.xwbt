@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=E:\Docs\Xilinx_Workspaces\TUTORIALS\impact.xsl
+OUTFILE=E:\Docs\Xilinx_Workspaces\TUTORIALS\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=E:\Docs\Xilinx_Workspaces\TUTORIALS
+LICENSE=iMPACT
+USER_INFO=iMPACT

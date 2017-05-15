@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "/home/ghost/Documents/Xilinx_Workspaces/TUTORIALS/carryripple4bitaddsub.xst" -ofn "/home/ghost/Documents/Xilinx_Workspaces/TUTORIALS/carryripple4bitaddsub.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 carryripple4bitaddsub.ngc carryripple4bitaddsub.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o carryripple4bitaddsub_map.ncd carryripple4bitaddsub.ngd carryripple4bitaddsub.pcf 
+par -w -intstyle ise -ol high -mt off carryripple4bitaddsub_map.ncd carryripple4bitaddsub.ncd carryripple4bitaddsub.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml carryripple4bitaddsub.twx carryripple4bitaddsub.ncd -o carryripple4bitaddsub.twr carryripple4bitaddsub.pcf 
+xst -intstyle ise -ifn "/home/ghost/Documents/Xilinx_Workspaces/TUTORIALS/carryripple4bitaddsub.xst" -ofn "/home/ghost/Documents/Xilinx_Workspaces/TUTORIALS/carryripple4bitaddsub.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 carryripple4bitaddsub.ngc carryripple4bitaddsub.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o carryripple4bitaddsub_map.ncd carryripple4bitaddsub.ngd carryripple4bitaddsub.pcf 
+par -w -intstyle ise -ol high -mt off carryripple4bitaddsub_map.ncd carryripple4bitaddsub.ncd carryripple4bitaddsub.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml carryripple4bitaddsub.twx carryripple4bitaddsub.ncd -o carryripple4bitaddsub.twr carryripple4bitaddsub.pcf 
+xst -intstyle ise -ifn "/home/ghost/Documents/Xilinx_Workspaces/TUTORIALS/carryripple4bitaddsub.xst" -ofn "/home/ghost/Documents/Xilinx_Workspaces/TUTORIALS/carryripple4bitaddsub.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 carryripple4bitaddsub.ngc carryripple4bitaddsub.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o carryripple4bitaddsub_map.ncd carryripple4bitaddsub.ngd carryripple4bitaddsub.pcf 
+par -w -intstyle ise -ol high -mt off carryripple4bitaddsub_map.ncd carryripple4bitaddsub.ncd carryripple4bitaddsub.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml carryripple4bitaddsub.twx carryripple4bitaddsub.ncd -o carryripple4bitaddsub.twr carryripple4bitaddsub.pcf 
+xst -intstyle ise -ifn "E:/Docs/Xilinx_Workspaces/TUTORIALS/carryripple4bitaddsub.xst" -ofn "E:/Docs/Xilinx_Workspaces/TUTORIALS/carryripple4bitaddsub.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 carryripple4bitaddsub.ngc carryripple4bitaddsub.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o carryripple4bitaddsub_map.ncd carryripple4bitaddsub.ngd carryripple4bitaddsub.pcf 
+par -w -intstyle ise -ol high -t 1 carryripple4bitaddsub_map.ncd carryripple4bitaddsub.ncd carryripple4bitaddsub.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml carryripple4bitaddsub.twx carryripple4bitaddsub.ncd -o carryripple4bitaddsub.twr carryripple4bitaddsub.pcf 
+bitgen -intstyle ise -f carryripple4bitaddsub.ut carryripple4bitaddsub.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 carryripple4bitaddsub.ngc carryripple4bitaddsub.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o carryripple4bitaddsub_map.ncd carryripple4bitaddsub.ngd carryripple4bitaddsub.pcf 
+par -w -intstyle ise -ol high -t 1 carryripple4bitaddsub_map.ncd carryripple4bitaddsub.ncd carryripple4bitaddsub.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml carryripple4bitaddsub.twx carryripple4bitaddsub.ncd -o carryripple4bitaddsub.twr carryripple4bitaddsub.pcf 
+bitgen -intstyle ise -f carryripple4bitaddsub.ut carryripple4bitaddsub.ncd 
+xst -intstyle ise -ifn "E:/Docs/Xilinx_Workspaces/TUTORIALS/carryripple4bitaddsub.xst" -ofn "E:/Docs/Xilinx_Workspaces/TUTORIALS/carryripple4bitaddsub.syr" 
+xst -intstyle ise -ifn "E:/Docs/Xilinx_Workspaces/TUTORIALS/carryripple4bitaddsub.xst" -ofn "E:/Docs/Xilinx_Workspaces/TUTORIALS/carryripple4bitaddsub.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 carryripple4bitaddsub.ngc carryripple4bitaddsub.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o carryripple4bitaddsub_map.ncd carryripple4bitaddsub.ngd carryripple4bitaddsub.pcf 
+par -w -intstyle ise -ol high -t 1 carryripple4bitaddsub_map.ncd carryripple4bitaddsub.ncd carryripple4bitaddsub.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml carryripple4bitaddsub.twx carryripple4bitaddsub.ncd -o carryripple4bitaddsub.twr carryripple4bitaddsub.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f carryripple4bitaddsub.ut carryripple4bitaddsub.ncd 

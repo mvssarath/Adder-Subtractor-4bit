@@ -1,0 +1,20 @@
+NET "a<0>" LOC="C5";
+NET "a<1>" LOC="D5";
+NET "a<2>" LOC="A4";
+NET "a<3>" LOC="B4";
+
+NET "b<0>" LOC="F7";
+NET "b<1>" LOC="E7";
+NET "b<2>" LOC="B6";
+NET "b<3>" LOC="A6";
+
+NET "cin" LOC="L13";
+NET "op_sel" LOC="H18";
+
+NET "sum<0>" LOC="F12";
+NET "sum<1>" LOC="E12";
+NET "sum<2>" LOC="F11";
+NET "sum<3>" LOC="E11";
+
+NET "cout" LOC="E9";
+
